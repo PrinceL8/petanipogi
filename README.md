@@ -1,19 +1,19 @@
-	divider_line = ("=" * 50)
-	xp_per_level = 30
+divider_line = ("=" * 50)
+xp_per_level = 30
 
-	print("Welcome to Python Quest!")
-	player_name = input("What is your name? ")
-	if player_name == "":
-    	player_name = "Python Learner"
-	print(f"Hi {player_name}! Fill in the blanks and fix the bugs.")
-	print("You get 2 tries per exercise: 10 XP on the first, 5 XP on the second.")
-	print("If you get one wrong, you will see a hint.")
-	input("\n(press Enter to start)")
+print("Welcome to Python Quest!")
+player_name = input("What is your name? ")
+if player_name == "":
+    player_name = "Python Learner"
+print(f"Hi {player_name}! Fill in the blanks and fix the bugs.")
+print("You get 2 tries per exercise: 10 XP on the first, 5 XP on the second.")
+print("If you get one wrong, you will see a hint.")
+input("\n(press Enter to start)")
 
-	total_xp = 0
-	player_level = 1
+total_xp = 0
+player_level = 1
 
-	for lesson_number in range(1, 7):
+for lesson_number in range(1, 7):
 
 
     print("")
@@ -281,7 +281,7 @@
 
         input("\n(press Enter to continue)")
 
-	print("")
-	print(divider_line)
-	print(f"All done, {player_name}!")
-	print(f"Final XP: {total_xp}   Final level: {player_level}")
+print("")
+print(divider_line)
+print(f"All done, {player_name}!")
+print(f"Final XP: {total_xp}   Final level: {player_level}")
