@@ -281,7 +281,7 @@
 
         input("\n(press Enter to continue)")
 
-print("")
-print(divider_line)
-print(f"All done, {player_name}!")
-print(f"Final XP: {total_xp}   Final level: {player_level}")
+	print("")
+	print(divider_line)
+	print(f"All done, {player_name}!")
+	print(f"Final XP: {total_xp}   Final level: {player_level}")
